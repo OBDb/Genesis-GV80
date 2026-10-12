@@ -1,0 +1,22 @@
+command_id: 7A0.7A8.22B008|fc=1
+test_cases:
+- expected_values:
+    GV80_BRAKE_SW: 0
+  response: |-
+    7A8100B62B008FFFEFF
+    7A821F000000000AAAA
+- expected_values:
+    GV80_BRAKE_SW: 0
+  response: |-
+    7A8100B62B008FFFEFF
+    7A821F000024000AAAA
+- expected_values:
+    GV80_BRAKE_SW: 0
+  response: |-
+    7A8100B62B008FFFEFF
+    7A821F000124002AAAA
+- expected_values:
+    GV80_BRAKE_SW: 0
+  response: |-
+    7A8100B62B008FFFEFF
+    7A821F040324000AAAA
