@@ -1,0 +1,13 @@
+references:
+  - "https://en.wikipedia.org/wiki/Genesis_GV80"
+
+generations:
+  - name: "First Generation (JX1)"
+    start_year: 2020
+    end_year: 2024
+    description: "The first-generation GV80 (JX1), Genesis's first SUV, launched in Korea in January 2020 and in North America for the 2021 model year. Built on the rear-drive M3 platform it shares with the second-generation G80, with rear-wheel or all-wheel drive. Engines were a 2.5L turbocharged four-cylinder (Smartstream G2.5 T-GDi), a 3.5L twin-turbo V6 (Smartstream G3.5 T-GDi) and, outside North America, a 3.0L inline-six diesel, each with an eight-speed automatic."
+
+  - name: "First Generation Facelift (JX1)"
+    start_year: 2024
+    end_year: null
+    description: "The facelifted GV80 went on sale in Korea in August 2023 as a 2024 model and in North America for the 2025 model year, alongside the new GV80 Coupe. Changes include a 27-inch OLED display joining the cluster and infotainment screens, a revised grille and lamps, and a 48V electric supercharger option on the 3.5L twin-turbo V6 in the Coupe. The 2.5T and 3.5T engines and the eight-speed automatic carry over."
