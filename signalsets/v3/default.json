@@ -167,7 +167,7 @@
   "signals": [
     {"id": "GV80_BATTERY_V",                "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 17.37, "mul": 17.37, "div": 255,                "unit": "volts"   }, "name": "Battery voltage"},
     {"id": "GV80_BATTERY_V_AFTER_IGNITION", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 17.37, "mul": 17.37, "div": 255,                "unit": "volts"   }, "name": "Battery voltage after ignition"},
-    {"id": "GV80_IAT",                      "path": "Engine",  "fmt": {"bix": 264, "len": 8, "max": 143,                 "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"},
+    {"id": "GV80_IAT",                      "path": "Engine",  "fmt": {"bix": 264, "len": 8, "max": 143,                 "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Intake air temperature",         "suggestedMetric": "intakeAirTemperature"},
     {"id": "GV80_EOT",                      "path": "Engine",  "fmt": {"bix": 272, "len": 8, "max": 143,                 "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature",         "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
